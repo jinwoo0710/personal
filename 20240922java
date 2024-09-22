@@ -1,0 +1,102 @@
+52p
+------------------------------------------------------------------------------------
+1.
+class MyInfoApp {
+    public static void main(String[] args) {
+        System.out.println("김진우");
+        System.out.println("20살");
+        System.out.println("컴퓨터소프트웨어과");
+    }
+}
+
+55p
+------------------------------------------------------------------------------------
+1.
+public class Welcome {
+   public static void main(String[] args) {
+      System.out.println("welcome!!");
+      System.out.println("자바 세계로 오신 것을 환영합니다.");
+   }
+}
+2.
+public class Sorry {
+   public static void main(String[] args) {
+      System.out.println("Sorry~~");
+      System.out.println("재밌어서 미안합니다~~");
+   }
+}
+
+110p
+------------------------------------------------------------------------------------
+1.
+import java.util.Scanner;
+class HelloWorld {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+ 
+        System.out.print("원화를 입력하세요(단위 원)>>> ");
+        int num = input.nextInt();
+        System.out.println(num+"원은 $"+num/1100.0+"입니다.");
+    }
+}
+
+2.
+import java.util.Scanner;
+class HelloWorld {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+ 
+        System.out.print(">>> ");
+        int num = input.nextInt();
+        if(num/10 == num%10){
+            System.out.println("yes");a
+        }
+        else{
+            System.out.println("no");
+        }
+    }
+}
+
+3.
+import java.util.Scanner;
+class HelloWorld {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int[] arr = {50000, 10000, 1000, 100, 50, 10, 1};
+        int num = input.nextInt();
+        int cou;
+        for(int n : arr){
+            if(num/n > 0){
+                cou = num/n;
+                num -= n*cou;
+                System.out.println(cou + " " + num);
+            }
+        }
+    }
+}
+
+4.
+import java.util.Scanner;
+class HelloWorld {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int num1, num2, num3;
+        num1 = input.nextInt();
+        num2 = input.nextInt();
+        num3 = input.nextInt();
+        int max;
+        if(num1 > num2){
+            max = num1;
+            if(max < num3){
+                max = num3;
+            }
+        }
+        else{
+            max = num2;
+            if(max < num3){
+                max = num3;
+            }
+        }
+        System.out.println("3숫자 중 가장 큰 수는 >>> " + max);
+    }
+}

@@ -3,33 +3,13 @@ package report;
 
 class ColorPoint2 extends Point{
 	String color;
-	ColorPoint2(int x, int y, String color){
-		super(x, y);
-		this.color = color;
-	}
-	ColorPoint2(int x, int y){
-		super(x, y);
-	}
-	ColorPoint2(){
-		super(0, 0);
-		this.color = "white";
-	}
-	
-	void set(String color) {
-		this.color = color;
-	}
-	
-	void set(int x, int y) {
-		move(x, y);
-	}
-	
-	public String toString() {
-		return color + "색의 (" + getX() + "," + getY() + ")의 점";
-	}
-	
-	int getDistance(ColorPoint2 cp) {
-		return Math.sqrt(Math.pow(super.getX()-cp.getX(), 2) + Math.pow(super.getY()-cp.getY(), 2));
-	}
+	ColorPoint2(int x, int y, String color){super(x, y); this.color = color;}
+	ColorPoint2(int x, int y){super(x, y);}
+	ColorPoint2(){super(0, 0); this.color = "white";}
+	void set(String color) {this.color = color;}
+	void set(int x, int y) {move(x, y);}
+	public String toString() {return color + "색의 (" + getX() + "," + getY() + ")의 점";}
+	int getDistance(ColorPoint2 cp) {return Math.sqrt(Math.pow(super.getX()-cp.getX(), 2) + Math.pow(super.getY()-cp.getY(), 2));}
 }
 
 public class Report4 {

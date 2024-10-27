@@ -4,9 +4,7 @@ import java.util.*;
 class Dictionary {
     private static String[] kor = {"사랑", "아기", "돈", "미래", "희망"};
     private static String[] eng = {"love", "baby", "money", "future", "hope"};
-    public static String kor2eng(String voca) {
-        return eng[Arrays.asList(kor).indexOf(voca)];
-    }
+    public static String kor2eng(String voca) {return eng[Arrays.asList(kor).indexOf(voca)];}
 }
 public class report13 {
     public static void main(String[] args) {

@@ -22,7 +22,7 @@ public class Report4 {
 		cp.set (10, 20);
 		System.out.println(cp.toString() + "입니다.");
 		ColorPoint2 thresholdPoint = new ColorPoint2(100, 100);
-		System.out.println("cp에서 임계점까지의 거리는"+ cp.getDistance(thresholdPoint)) ;
+		System.out.println("cp에서 임계점까지의 거리는"+ cp.getDistance(thresholdPoint));
 
 	}
 

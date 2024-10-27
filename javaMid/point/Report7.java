@@ -3,22 +3,10 @@ package report;
 class Point3DColor extends Point{
 	int z;
 	String color;
-	public Point3DColor(int x, int y, int z, String color) {
-		super(x, y);
-		this.z = z;
-		this.color = color;
-	}
-	
-	void move(Point3DColor q) {
-		move(q.getX(), q.getY());
-		z = q.z;
-	}
-	public String toString() {
-		return "(" + getX() + "," + getY() + "," + z + ")" + color + "점";
-	}
-	boolean equals(Point3DColor r) {
-		return r.getX()==getX() && r.getY()==getY() && r.z==z && r.color==color
-	}
+	public Point3DColor(int x, int y, int z, String color) {super(x, y); this.z = z; this.color = color;}
+	void move(Point3DColor q) {move(q.getX(), q.getY()); z = q.z;}
+	public String toString() {return "(" + getX() + "," + getY() + "," + z + ")" + color + "점";}
+	boolean equals(Point3DColor r) {return r.getX()==getX() && r.getY()==getY() && r.z==z && r.color==color}
 }
 
 public class Report7 {

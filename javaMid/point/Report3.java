@@ -3,22 +3,10 @@ package report;
 
 class ColorPoint extends Point{
 	String color;
-	ColorPoint(int x, int y, String color) {
-		super(x, y);
-		this.color = color;
-	}
-	
-	void setXY(int x, int y) {
-		move(x, y);
-	}
-	
-	void setColor(String color) {
-		this.color = color;
-	}
-	
-	public String toString() {
-		return color + "색의 (" + getX() + "," + getY() + ")의 점";  
-	}
+	ColorPoint(int x, int y, String color) {super(x, y); this.color = color;}
+	void setXY(int x, int y) {move(x, y);}
+	void setColor(String color) {this.color = color;}
+	public String toString() {return color + "색의 (" + getX() + "," + getY() + ")의 점";}
 }
 
 public class Report3 {

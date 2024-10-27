@@ -13,9 +13,7 @@ public class report13 {
         while(true) {
             System.out.print("한글단어>>");   
             String voca = sc.nextLine();
-            if(voca.equals("그만")) {
-                break;
-            }
+            if(voca.equals("그만")) {break;}
             System.out.println(Dictionary.kor2eng(voca));
         }
         sc.close();

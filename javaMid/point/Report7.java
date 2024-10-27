@@ -17,11 +17,7 @@ class Point3DColor extends Point{
 		return "(" + getX() + "," + getY() + "," + z + ")" + color + "점";
 	}
 	boolean equals(Point3DColor r) {
-		if(r.getX()==getX() && r.getY()==getY() && r.z==z && r.color==color) {
-			return true;
-		}else {
-			return false;
-		}
+		return r.getX()==getX() && r.getY()==getY() && r.z==z && r.color==color
 	}
 }
 

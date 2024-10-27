@@ -12,7 +12,7 @@ abstract class PairMap{
 
 class Dictionary extends PairMap{
 	int size;
-	int in = 1;
+	int in = 0;
 	Dictionary(int size) {this.size = size; keyArray = new String [size]; valueArray = new String [size];	}
 	public String get(String key) {
 		int index = Arrays.asList(keyArray).indexOf(key);

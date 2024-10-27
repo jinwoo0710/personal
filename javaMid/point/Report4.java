@@ -28,7 +28,7 @@ class ColorPoint2 extends Point{
 	}
 	
 	int getDistance(ColorPoint2 cp) {
-		return 1;
+		return Math.sqrt(Math.pow(super.getX()-cp.getX(), 2) + Math.pow(super.getY()-cp.getY(), 2));
 	}
 }
 

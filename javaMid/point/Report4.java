@@ -9,7 +9,11 @@ class ColorPoint2 extends Point{
 	void set(String color) {this.color = color;}
 	void set(int x, int y) {move(x, y);}
 	public String toString() {return color + "색의 (" + getX() + "," + getY() + ")의 점";}
-	double getDistance(ColorPoint2 cp) {return Math.sqrt(Math.pow(super.getX()-cp.getX(), 2) + Math.pow(super.getY()-cp.getY(), 2));}
+	double getDistance(ColorPoint2 cp) {
+		int x = super.getX() - cp.getX();
+		int y = super.getY() - cp.getY();
+		return Math.sqrt(x * x + y * y);
+	}
 }
 
 public class Report4 {

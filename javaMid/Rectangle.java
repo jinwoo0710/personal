@@ -3,10 +3,7 @@ import java.util.*;
 public class Rectangle {
 	int height;
 	int width;
-	
-	public int getArea() {
-		return height * width;
-	}
+	public int getArea() {return height * width;}
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		Rectangle rect = new Rectangle();

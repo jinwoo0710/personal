@@ -1,5 +1,6 @@
-package finaltest;
+3. Scanner 클래스로 -1이 입력될 떄까지 양의 정수를 입력받아 벡터 Vector<Integer>에 저장하라. 그리고 벡터를 검색하여 가장 작은 수를 출력하는 프로그램을 작성하라. 
 
+package finaltest;
 import java.util.Scanner;
 import java.util.Vector;
 

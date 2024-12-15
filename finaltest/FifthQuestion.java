@@ -1,5 +1,6 @@
-package finaltest;
+5. 컨텐트팬에 버튼을 5개 부착하고, 모든 버튼의 표면에 0을 출력하고, 각 버튼이 클릭될 때마다 클릭 횟수를 증가시켜 표면을 갱신하는 스윙 프로그램을 작성하라.
 
+package finaltest;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;

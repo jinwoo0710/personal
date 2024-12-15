@@ -1,3 +1,5 @@
+7. 실행되자마자 콘솔 창에 1에서 10까지 출력한 뒤 종류하는 스레드를 작성하는 문제이다. main()dms 사용자로부터 "go" 문자열을 입력받으면 이 스레드를 생성하고 실행시킨다.
+
 package finaltest;
 import java.util.Scanner;
 

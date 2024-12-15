@@ -1,3 +1,5 @@
+9. 프로그램이 시작되면 바로 오디오를 재생하라. 그리고 마우스가 프로그램을 벗어나면 연주를 일시 중단시키고, 다시 마우스가 프로그램으로 올라오면 연주를 계속하도록 하라. 
+
 package finaltest;
 import javax.swing.*;
 import javax.sound.sampled.*;

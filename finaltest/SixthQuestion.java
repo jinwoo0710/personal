@@ -1,5 +1,6 @@
-package finaltest;
+6. 100에서 200까지 조절할 수 있는 수평 슬라이더와 레이블을 하나 만들고, 사용자가 슬라이더를 움직이면 레이블 컴포넌트에 수치로 보여주는 스윙 응용프로그램을 작성하라.
 
+package finaltest;
 import javax.swing.*;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;

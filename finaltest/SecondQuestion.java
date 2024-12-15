@@ -1,3 +1,5 @@
+2. Calendar 클래스를 활용하여 생일을 입력하면 오늘 이 시간까지 며칠을 살아왔는지 알려주는 프로그램을 작성하라. 며칠을 계산할 때는 오늘을 포함한다. 날짜가 바뀔 때 1일 산 것으로 계산한다.
+
 package finaltest;
 import java.util.Calendar;
 import java.util.Scanner;

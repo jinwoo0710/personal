@@ -1,5 +1,6 @@
-package finaltest;
+4. 한 라인을 입력받아 각 문자열을 ArrayList<String>에 저장하고, ArrayList에 중복된 문자열을 제거하여 중복된 문자열이 없는 상태로 만들라. 그리고 나서 이를 출력하는 프로그램을 작성하라.
 
+package finaltest;
 import java.util.ArrayList;
 import java.util.LinkedHashSet;
 import java.util.Scanner;

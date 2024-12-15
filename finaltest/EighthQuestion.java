@@ -1,5 +1,6 @@
-package finaltest;
+8. ”파일", "편집", "보기", "입력" 등의 4가지 메뉴를 가진 스윙 프로그램을 작성하라. "보기" 메뉴에만 "화면확대", "쪽윤곽"의 2개의 메뉴 아이템이 있다.
 
+package finaltest;
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;

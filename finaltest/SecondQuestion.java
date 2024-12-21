@@ -8,7 +8,8 @@ public class SecondQuestion {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Calendar today = Calendar.getInstance();
-        
+
+        System.out.prrintln("오늘은 날짜는 " + today + "입니다");
         while (true) {
             System.out.print("생일 입력(년 월 일)>> ");
             String input = scanner.nextLine().trim();

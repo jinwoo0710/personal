@@ -9,7 +9,7 @@ public class SecondQuestion {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         LocalDate today = LocalDate.now();
-        System.out.println(today);
+        System.out.println("오늘은 " + today + "입니다.");
         
         while (true) {
             System.out.print("생일 입력(년 월 일)>> ");

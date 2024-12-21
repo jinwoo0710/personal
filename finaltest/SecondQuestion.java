@@ -16,9 +16,7 @@ public class SecondQuestion {
             String input = scanner.nextLine().trim();
             String[] dateParts = input.split("\\s+");
 
-            if (input.equals("그만")) {
-                break;
-            }
+            if (input.equals("그만")) {break;}
 
             int year = Integer.parseInt(dateParts[0]);
             int month = Integer.parseInt(dateParts[1]);

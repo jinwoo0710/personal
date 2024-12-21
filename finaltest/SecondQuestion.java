@@ -13,12 +13,11 @@ public class SecondQuestion {
         while (true) {
             System.out.print("생일 입력(년 월 일)>> ");
             String input = scanner.nextLine().trim();
+            String[] dateParts = input.split("\\s+");
             
             if (input.equals("그만")) {
                 break;
             }
-
-            String[] dateParts = input.split("\\s+");
 
             int year = Integer.parseInt(dateParts[0]);
             int month = Integer.parseInt(dateParts[1]) - 1;
